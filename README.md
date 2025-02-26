@@ -8,3 +8,8 @@ The build errors were caused by the glitch (?) in Microsoft.Office.Interop.Acces
 It took abount an hour to create the working tool, not including the time that was spent detecting and fixing the ACE DAO librabry glitch described above (this was already resolved on another project).
 
 The conversation is shared here: https://claude.ai/share/9974e6f3-ff88-4143-ab37-ef427b96294a
+
+## Requirements
+
+The project (as given) compiles for 64-bit. Required are .NET 8 and Microsofot Access Database Engine (Microsoft ACE). The later should be installed in the bitness of the project. Microsoft.Office.Interop.Access.Dao NuGet package is used.
+
